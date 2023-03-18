@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Седона - небольшой городок в Аризоне</title>
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
     
     <body>
@@ -40,51 +41,66 @@
 
         <main class="main-index">
             <h1 class="visually-hidden">Туристический город Седона</h1>
-
+            <div class="welcome">
+                <p><img class="welcome-title" src="images/welcome.svg" width="187.7px" height="44.7px"></p>
+                <p><img class="to-the-gorgeous" src="images/to-the-gorgeous.svg" width="256px" height="28.78px"></p>
+                <p><img class="sedona" src="images/sedona-because-the-gc-sucks.svg" width="456.7px" height="212.77px"></p>
+                <p><img class="white-plate" src="images/white.png" width="1200px" height="57px"></p>
+            </div>
             <section class="advantages">
                 <h2 class="visually-hidden">Преимущества Седоны</h2>
-
+                
                 <p class="section-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
                 <p class="section-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
             
                 <ol class="advantages-list">
                     <li class="advantages-item">
-                        <h3 class="advantages-title">Настоящий городок</h3>
-                        <p class="advantages-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-                        <img class="advantages-img" src="" alt="Фото города Седона с заведениями">
+                        <div class="blue-bg">
+                            <h3 class="advantages-title blue-bg">Настоящий городок</h3>
+                            <p class="advantages-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                        </div>
+                        <img class="advantages-img" src="images/photo-1.jpg" alt="Фото города Седона с заведениями">
                 
                         <ul class="advantages-list">
-                            <li class="advantages-item">
+                            <li class="advantages-item light-blue-bg">
                                 <h4 class="advantages-title">Жилье</h4>
+                                <img class="icon-svg" src="images/house1.svg" width="74.7px" height="72px">
                                 <p class="advantages-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                             </li>
                             <li class="advantages-item">
                                 <h4 class="advantages-title">Еда</h4>
+                                <img class="icon-svg" src="images/burger.svg" width="74.7px" height="72px">
                                 <p class="advantages-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
                             </li>
-                            <li class="advantages-item">
+                            <li class="advantages-item light-blue-bg">
                                 <h4 class="advantages-title">Сувениры</h4>
+                                <img class="icon-svg" src="images/surprize.svg" width="74.7px" height="72px">
                                 <p class="advantages-text">Не только китайского, но и настоящего местного производства!!</p>
                             </li>
                         </ul>
                     </li>
                     
                     <li class="advantages-item">
-                        <h3 class="advantages-title">Там есть мост дьявола</h3>
-                        <p class="advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-                        <img class="advantages-img"src="" alt="Фото Моста Дьявола: природного каменного моста между скалами">
+                        <div class="blue-bg">
+                            <h3 class="advantages-title blue-bg">Там есть мост дьявола</h3>
+                            <p class="advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                        </div>
+                        <img class="advantages-img"src="images/photo-2.jpg" alt="Фото Моста Дьявола: природного каменного моста между скалами">
                     </li>
 
                     <li class="advantages-item">
                         <h3 class="advantages-title">Небольшая площадь</h3>
+                        <p class="advantages-text">— №3 —</p>
                         <p class="advantages-text">Все достопримечательности находятся очень близко</p>
                     </li>
-                    <li class="advantages-item">
+                    <li class="advantages-item medium-blue-bg">
                         <h3 class="advantages-title">Красивая дорога</h3>
+                        <p class="advantages-text">— №4—</p>
                         <p class="advantages-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                     </li>
                     <li class="advantages-item">
                         <h3 class="advantages-title">Мало туристов</h3>
+                        <p class="advantages-text">— №5 —</p>
                         <p class="advantages-text">Большинство едет в Гранд Каньон и толпится там</p>
                     </li>
                 </ol>
@@ -108,7 +124,7 @@
                         <span class="visually-hidden">Ваш e-mail</span>
                         <input class="field-input" type="email" placeholder="Ваш e-mail" name="email">
                     </label>
-                        <button class="subscribe-button button" type="submit">Подписаться</button>
+                        <button class="subscribe-button button button-blue" type="submit">Подписаться</button>
                 </form>
             </section>
         </main>
@@ -118,16 +134,19 @@
                 <li class="social-item">
                     <a class="social-link" href="https://twitter.com/htmlacademy_ru">
                     <span class="visually-hidden">Twitter</span>
+                    <img src="images/twitter.svg" alt="twitter" width="18px" height="15">
                     </a>
                 </li>
                 <li class="social-item">
                     <a class="social-link" href="https://www.facebook.com/htmlacademy">
                     <span class="visually-hidden">Facebook</span>
+                    <img src="images/facebook.svg" alt="twitter" width="18px" height="15">
                     </a>
                 </li>
                 <li class="social-item">
                     <a class="social-link" href="https://www.youtube.com/c/HTMLAcademyRUS">
                     <span class="visually-hidden">Youtube</span>
+                    <img src="images/youtube.svg" alt="twitter" width="18px" height="15">
                     </a>
                 </li>
             </ul>
@@ -137,7 +156,7 @@
             </address>
             
             <a class="footer-developer" href="https://htmlacademy.ru/">
-                <img src="" alt="Разработано HTML Acagemy">
+                <img src="images/html-academy.svg" alt="Разработано HTML Acagemy">
             </a>
         </footer>
     </body>
