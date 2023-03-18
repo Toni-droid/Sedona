@@ -40,9 +40,14 @@ body {
   
 }
 
+.navigation-user-button {
+    text-decoration: none;
+}
+
 .icon-button-counter {
     font-size: 10px;
     line-height: 13px;
+    color: #000000;
 }
 
 .button {
@@ -134,7 +139,7 @@ body {
 .subscribe {
     background-color: #000000;
     color: #FFFFFF;
-    background-image: url("../../../../images/background.jpg");
+    background-image: url("../../../images/background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     
