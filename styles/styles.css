@@ -61,7 +61,7 @@ body {
 .welcome {
     color: #FFFFFF;
     background-color: #000000;
-    background-image: url("/images/index-background.jpg");
+    background-image: url("./images/index-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     text-align: center;
