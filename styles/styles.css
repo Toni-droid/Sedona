@@ -332,7 +332,9 @@
     display: flex;
 }
 
-
+.hotel-search {
+    text-align: center;
+}
 
 .subscribe {
     text-align: center;
